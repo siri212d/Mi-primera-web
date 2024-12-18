@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mi Portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Bienvenido a mi Portfolio Digital</h2>
+            <p>Diseño, desarrollo y creatividad al servicio de tus ideas.</p>
+            <a href="#contact" class="btn-cta">Contáctame</a>
+        </div>
+    </section>
+
+    <section id="about" class="section-about">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p>Soy un programador y diseñador web apasionado por crear experiencias digitales interactivas y únicas.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section-projects">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="C:\Users\shaar\OneDrive\Desktop\PWDC\mi-primera-pagina-web-en-chagpt\img\Captura de pantalla 2024-12-17 224236.png" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción breve del proyecto.</p>
+                </div>
+                <div class="project-card">
+                    <img src="C:\Users\shaar\OneDrive\Desktop\PWDC\mi-primera-pagina-web-en-chagpt\img\Captura de pantalla 2024-12-17 224252.png" alt="Proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve del proyecto.</p>
+                </div>
+                <div class="project-card">
+                    <img src="C:\Users\shaar\OneDrive\Desktop\PWDC\mi-primera-pagina-web-en-chagpt\img\Captura de pantalla 2024-12-17 224310.png" alt="Proyecto 3">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción breve del proyecto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+
+                <button type="submit" class="btn-submit">Enviar</button>
+             </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Portfolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,202 @@
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #b3a7d1; /* Lila pastel */
+}
+
+header .logo h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    color: #ff7f3f; /* Naranja pastel */
+}
+
+/* Hero Section */
+#hero {
+    background-color:#ccc; /* Verde pastel */
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero .hero-content h2 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero .hero-content p {
+    color:#f4f4f4;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#hero .btn-cta {
+    background-color:bisque; /* Naranja pastel */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#hero .btn-cta:hover {
+    background-color: #ff6347;
+}
+
+/* About Section */
+.section-about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-about h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-about p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Projects Section */
+.section-projects {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.section-projects h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+}
+
+.project-card p {
+    color: #777;
+}
+
+/* Contact Section */
+.section-contact {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form .btn-submit {
+    background-color: #ff7f3f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form .btn-submit:hover {
+    background-color: #ff6347;
+}
+
+/* Footer */
+footer {
+    background-color:#ccc; /* Lila pastel */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contact-form input, #contact-form textarea {
+        width: 100%;
+    }
+}
+a {    text-decoration: none;}
+ol, 
+ul {
+list-style: none;
+}
